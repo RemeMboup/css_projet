@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+}
+.navbar_link
+{
+    display: flex;
+    margin-left: 50%;
+    padding: 20px;
+}
+.navbar_link li{
+    list-style: none;
+}
+.navbar_link li a
+{
+    text-decoration: none;
+    /*c par rapport a l espacement d une list ici c mieux d utliser les pixels que les pourcentages*/
+    margin-left: 20px;
+    color: white;
+    font-family: roboto;
+    
+
+}
+.navbar_link li a:hover
+{
+    color: green;
+}
+.video
+{
+    margin-top: 20px;
+    margin-left: 57%;
+}
+.mon_lien a:hover
+{
+color :red;
+}
+.tableau1 th{
+background-color: blue;
+}
+.tableau1 tr
+{
+background-color: gray;
+}
+.mon_form
+{
+    width: 36%;
+    height: 80%;
+}
+.btn-1Z:hover
+{
+background-color: blanchedalmond;
+}
